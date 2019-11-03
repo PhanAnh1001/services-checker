@@ -9,10 +9,10 @@
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 ##set your email address 
-EMAIL="email@yourdomain.com"
+EMAIL="tranphananh1001@gmail.com"
 
 ##list your services you want to check
-SERVICES=( 'apache2' 'mysql' )
+SERVICES=( 'nginx' 'mysql' )
 
 #### OK. STOP EDITING ####
 
