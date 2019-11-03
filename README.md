@@ -12,7 +12,7 @@ Tested with Ubuntu 14.04, 16.04 and 18.04.
 5. Ensure it has enough privilege to run:
 
 ```
-chmod +x /your/path/to/scripts/restart-services
+sudo chmod -R +x /home/tranphananh1001/services-checker
 ```
 
 6. Create a cronjob as root (sudo crontab -e)  and add something like this, which runs every minute (adjust to your needs):
@@ -21,7 +21,7 @@ chmod +x /your/path/to/scripts/restart-services
 
 ```
 #check on services
-*/1 *  * * * /your/path/to/scripts/restart-services
+*/1 *  * * * /home/tranphananh1001/services-checker/restart-services
 
 ```
 
